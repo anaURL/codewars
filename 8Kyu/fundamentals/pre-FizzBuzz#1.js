@@ -14,4 +14,7 @@ function preFizz(n) {
     return result
   
   }
-  
+
+  //OR
+
+  let preFizz = n => [...Array(n)].map((x, i) => i+1);

@@ -10,3 +10,9 @@
 function stringClean(s){ 
     return s.replace(/\d/g, "");
     }
+
+    //OR
+
+    function stringClean(s){
+        return s.split('').filter((n) => n != parseInt(n)).join('');
+      }

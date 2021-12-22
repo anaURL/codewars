@@ -21,3 +21,9 @@ let number = function(busStops){
   //OR 
 
 let number = (busStops) => busStops.reduce((rem, [on, off]) => rem + on - off, 0);
+
+//OR 
+
+var number = function(busStops){
+    return busStops.map(x => x[0] - x[1]).reduce( (x, y) => x + y);
+  }

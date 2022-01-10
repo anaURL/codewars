@@ -21,3 +21,10 @@
 function peopleWithAgeDrink(old) {
     return old <= 13 ? 'drink toddy' : old <= 17 ? "drink coke" : (old <= 18 || old <= 20) ? "drink beer" : "drink whisky"
     };
+
+    //OR
+
+    const peopleWithAgeDrink = (age) =>
+  age < 14 ? "drink toddy" :
+  age < 18 ? "drink coke" :
+  age < 21 ? "drink beer" : "drink whisky"

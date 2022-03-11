@@ -4,5 +4,5 @@
 
 function find_average(array) {
     let totalSum= array.reduce((acc,c) => acc +c,0); 
-    return totalSum/array.length
+    return array.length > 0 ? totalSum/array.length : 0
   }

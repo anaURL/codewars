@@ -16,4 +16,3 @@
 //console.log(squareSum([1,2,5]),30 )
 //console.log(squareSum([2,5,8]),93 )
 //console.log(squareSum([3,3,3]),27 )
-

@@ -13,3 +13,7 @@ function maps(x){
     }
  
 }
+//OR
+function maps(x){
+    return x.map(el => el + el)
+}

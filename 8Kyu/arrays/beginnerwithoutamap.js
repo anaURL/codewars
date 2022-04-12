@@ -6,14 +6,5 @@
 
 
 function maps(x){
-    if (x=== undefined || x.length ===0) {
-        console.log('Array is invalid') 
-    } else {
-        return x.map(n => n*2)
-    }
- 
-}
-//OR
-function maps(x){
     return x.map(el => el + el)
 }

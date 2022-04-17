@@ -4,7 +4,9 @@
 
 // The array will never be empty.
 
+
 function getAverage(marks){
-    let average = marks.reduce((a,b) => a + b) / marks.length 
-    return Math.floor(average)
+    let avg = marks.reduce((a,b) => a + b, 0) / marks.length;
+    return Math.floor(avg)
+   
    }

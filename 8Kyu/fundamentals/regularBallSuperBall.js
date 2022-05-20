@@ -21,3 +21,11 @@ var Ball = function(ballType) {
     var Ball = function(ballType) {
         this.ballType = ballType || 'regular';
       };
+
+      // OR 
+
+      class Ball {
+        constructor(ballType = "regular") {
+          this.ballType = ballType;
+        }
+      }

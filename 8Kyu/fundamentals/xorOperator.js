@@ -11,3 +11,9 @@ function xor(a, b) {
    //P two expressions, integers? strings? negative, positive? 
    //R true only if exactly one is true
    //E 
+
+   //OR
+
+   function xor(a, b) {
+    return a != b;
+  }

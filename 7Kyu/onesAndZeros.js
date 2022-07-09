@@ -6,3 +6,7 @@ const binaryArrayToNumber = arr => {
     let binaryString = arr.join('')
     return parseInt(binaryString,2)
    };
+
+   //OR
+
+   const binaryArrayToNumber = arr => parseInt(arr.join(''), 2);

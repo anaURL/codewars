@@ -1,6 +1,6 @@
 # codewars
 
-These are my solutions to [codewars code katas](https://www.codewars.com/dashboard/). My profile in codewars can be found [here](https://www.codewars.com/users/ana_URL/). Language used here is (at the moment) Javascript.
+These are my solutions to [codewars code katas](https://www.codewars.com/dashboard/), and my codewars profile can be found [here](https://www.codewars.com/users/ana_URL/). Language: Javascript.
 
 As stated above, this repo includes my own solutions and posting them daily helps me keep the pace, code on a daily basis, and improve as a developer. But if you're a Codewarrior - before looking at my solutions, please take the time to think about your own approach. :) 
 

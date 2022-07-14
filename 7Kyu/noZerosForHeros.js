@@ -17,3 +17,9 @@ function noBoringZeros(n) {
     }
     return n
   }
+
+  //OR
+
+  function noBoringZeros(n) {
+    return n % 10 || n === 0 ? n : noBoringZeros(n / 10);
+  }
